@@ -1,0 +1,36 @@
+#block-p1 {
+    background-color:aqua; 
+}
+#block-p2 {
+    background-color:green; 
+}
+#inline-p1 {
+    background-color:orangered; 
+}
+#inline-p2 {
+    background-color:violet; 
+}
+#elementy-inline-block {
+    background-color:dodgerblue; 
+}
+#element-display-none{
+    background-color:darkorange;
+}
+#elementy-blokowe #block-p1, #block-p2 {
+    display: inline;
+}
+#elementy-liniowe #inline-p1, #inline-p2 {
+    display: block;
+}
+#elementy-inline-block>ul>li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border: 1px dotted #000;
+    text-align: center;
+    background-color:coral;
+}
+#element-display-none {
+    display: none;
+}
