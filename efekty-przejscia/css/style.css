@@ -1,0 +1,29 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;    
+}
+#box-width {
+    background-color: darkorange;
+    transition: width 2s ease-in;
+    }
+#box-height {
+    background-color: olivedrab;
+    transition: height 2s linear;
+    }
+#box-width-height {
+    background-color: crimson;
+    transition: width 2s ease-out, height 3s ease-out;
+    
+}
+#box-width:hover {
+    width: 400px;
+}
+#box-height:hover {
+    height: 400px;
+    background-color: darkolivegreen;
+}
+#box-width-height:hover {
+    width: 400px;
+    height: 400px;
+}
